@@ -16,19 +16,19 @@ config t
       exec-timeout 0 0
    Int Vlan 1
      no shutdown
-	 ip add 10.~~.1.2 255.255.255.0
+	 ip add 10.92.1.2 255.255.255.0
 	 description MGMTDATA
    Int Vlan 10
      no shutdown
-	 ip add 10.~~.10.2 255.255.255.0
+	 ip add 10.92.10.2 255.255.255.0
 	 description WIRELESS
    Int Vlan 50
      no shutdown
-	 ip add 10.~~.50.2 255.255.255.0
+	 ip add 10.92.50.2 255.255.255.0
 	 description IPCCTV
    Int Vlan 100
      no shutdown
-	 ip add 10.~~.100.2 255.255.255.0
+	 ip add 10.92.100.2 255.255.255.0
 	 description VOICEVLAN
 end
 
